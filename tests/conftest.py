@@ -26,3 +26,4 @@ for base in _parent_dirs:
     ]:
         if os.path.exists(candidate) and candidate not in sys.path:
             sys.path.insert(0, candidate)
+            
